@@ -282,6 +282,18 @@ nav {
   border-radius: 34px;
 }
 
+.pipifire_title {
+  color: #13007e;
+  font-weight: 500;
+}
+.pipifire_details {
+  color: #13007e;
+}
+
+.btn_pipifire {
+  color: #f00983;
+}
+
 footer {
   background: linear-gradient(
     89.87deg,
