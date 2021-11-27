@@ -44,6 +44,10 @@
   padding: 3rem 0;
 }
 
+.about_text {
+  margin-bottom: 60px;
+}
+
 .about_text > div:nth-of-type(1) {
   font-size: 22px;
   font-weight: bold;
