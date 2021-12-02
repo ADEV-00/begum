@@ -1,0 +1,383 @@
+nav {
+  background: transparent;
+  box-shadow: none;
+}
+
+.header {
+  background: url("./images/page_bg_mindful.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.nav-items {
+  font-weight: 500;
+}
+
+.header_wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_wrapper > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  max-width: 300px;
+  margin-bottom: 22px;
+}
+
+.logo_name {
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #520660;
+}
+
+body > div {
+  padding: 115px 0;
+  width: 100%;
+  background: white;
+}
+
+.middle_text {
+  display: flex;
+}
+
+.middle_text p {
+  font-size: 80px;
+  font-weight: bold;
+  font-size: 72px;
+  font-size: 4.5vw;
+  background: -webkit-linear-gradient(
+    90deg,
+    #e49b96 4.68%,
+    #e495a7 18.58%,
+    #de91b2 30.99%,
+    #da8fb8 40.92%,
+    #d48cc0 48.87%,
+    #c58dc9 57.3%,
+    #b98dd0 64.75%,
+    #ac8dd7 72.69%,
+    #a48edb 83.12%,
+    #9395e0 89.57%,
+    #859ce2 94.04%,
+    #6ca8e5 97.52%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.mindful_about {
+  padding: 130px 0;
+  background: #f5f5f7;
+}
+
+.mindful_about_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1;
+  margin-top: 0;
+  min-width: 40rem;
+  max-width: 50rem;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.right img {
+  margin-right: 0;
+}
+
+.mindful_about_title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #535255;
+  margin-bottom: 35px;
+}
+
+.mindful_about_text {
+  color: black;
+  font-size: 20px;
+  line-height: 42px;
+  padding: 54px 31px;
+  background: white;
+  border-radius: 26px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.mindful_about_text > a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  display: block;
+  margin-top: 10px;
+}
+
+.mindful_typography {
+  padding: 184px 0;
+  background: white;
+}
+
+.mindful_typography_wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mindful_typography_title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.mindful_typography_preview {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.mindful_typography_preview > div:nth-child(1) {
+  font-size: 130px;
+}
+
+.mindful_typography_preview > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 36px;
+  margin-left: 60px;
+}
+
+.mindful_typography_weights {
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.mindful_typography_weights > div {
+  margin-right: 50px;
+}
+
+.mindful_themes {
+  padding: 130px 0;
+  background: #f5f5f7;
+  position: relative;
+}
+
+.mindful_themes_title {
+  color: #535255;
+  font-weight: bold;
+  font-size: 38px;
+  margin-bottom: 40px;
+  z-index: 10;
+}
+
+.mindful_themes_wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.mindful_themes_desc {
+  background-image: url("./images/pixel_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 220px;
+  border-radius: 26px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.mindful_themes_preview {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 0;
+  background: rgba(255, 255, 255, 0.57);
+  box-shadow: 7px 7px 12px rgba(246, 216, 193, 0.16);
+  backdrop-filter: blur(14px);
+  border-radius: 26px;
+  position: relative;
+}
+
+.mindful_themes_preview > img:first-child {
+  margin-right: 60px;
+}
+
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  top: 25%;
+  left: 15%;
+  position: absolute;
+  background: #eea752;
+  filter: blur(194px);
+}
+
+.circle2 {
+  width: 600px;
+  height: 600px;
+  border-radius: 100%;
+  top: 25%;
+  right: 15%;
+  position: absolute;
+  background: #ce79a5;
+  filter: blur(194px);
+}
+
+.mindful_colors {
+  padding: 130px 0;
+  background-color: white;
+}
+
+.mindful_colors_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mindful_colors_title {
+  font-size: 98px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.mindful_colors_preview {
+  display: flex;
+  flex-direction: row;
+}
+
+.mindful_color_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mindful_color_wrapper:not(:last-child) {
+  margin-right: 20px;
+}
+
+.mindful_color {
+  height: 210px;
+  width: 86px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.mindful_screen {
+  padding: 130px 0;
+  background-color: #f5f5f7;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.mindful_screen_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 54px 0;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 7px 7px 12px rgba(103, 183, 132, 0.1);
+  backdrop-filter: blur(14px);
+  border-radius: 26px;
+  position: relative;
+}
+
+.mindful_screen_wrapper img {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 17px;
+}
+
+.mindful_screen > .circle {
+  top: 10%;
+}
+
+.mindful_screen > .circle2 {
+  top: 10%;
+}
+
+.mindful_onboarding_purchase {
+  margin-top: 10rem;
+  overflow: visible;
+  position: relative;
+}
+
+.mindful_onboarding_purchase_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mindful_onboarding_wrapper {
+  flex: 1;
+}
+
+.mindful_purchase_wrapper {
+  margin-left: 20px;
+}
+
+.onboarding_img_wrapper {
+  padding: 124px 0;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 7px 7px 12px rgba(223, 159, 47, 0.11);
+  backdrop-filter: blur(14px);
+  border-radius: 26px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mindful_purchase_img_wrapper {
+  padding: 124px 106px;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 7px 7px 12px rgba(223, 159, 47, 0.11);
+  backdrop-filter: blur(14px);
+  border-radius: 26px;
+}
+
+.onboarding_asset {
+  position: absolute;
+  bottom: -10rem;
+  left: 0;
+  filter: blur(44px);
+}
+
+.inpurchase_asset {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  filter: blur(9px);
+}
