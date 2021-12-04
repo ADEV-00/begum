@@ -225,6 +225,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.mockup {
+  max-width: 278px;
+}
+
 .btn_more {
   display: flex;
   align-items: center;

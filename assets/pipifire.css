@@ -1,0 +1,167 @@
+.pipifire_header {
+  background: radial-gradient(
+    155.42% 155.42% at 50% 117.87%,
+    rgba(88, 192, 240, 0.455) 0%,
+    rgba(232, 152, 193, 0.455) 54.69%,
+    rgba(238, 207, 69, 0.455) 100%
+  );
+  width: 100%;
+  min-height: 100vh;
+}
+
+nav {
+  background: transparent;
+  box-shadow: none;
+  margin-bottom: 100px;
+}
+
+.pipifire_header_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.pipifire_header_title {
+  font-size: 35px;
+  color: #e7118a;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.pipifire_header_text {
+  max-width: 30rem;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.pipifire_header_text > a {
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: underline;
+}
+
+.pipifire_header_mockup img {
+  max-width: 300px;
+  min-width: 100px;
+}
+
+.pipifire_colors {
+  padding: 180px 0;
+  background: white;
+}
+
+.pipifire_colors_font_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pipifire_color_wrapper > div {
+  font-weight: 900;
+  font-size: 66px;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 1;
+}
+
+.pipifire_color_wrapper {
+  position: relative;
+}
+
+.pipifire_color_wrapper > div:nth-child(1)::before {
+  content: "#";
+  position: absolute;
+  font-weight: bold;
+  font-size: 20rem;
+  top: -10rem;
+  left: -5rem;
+  color: rgba(224, 222, 222, 0.47);
+  z-index: -1;
+}
+
+.pipifire_font_preview {
+  display: flex;
+  margin-bottom: 44px;
+}
+
+.pipifire_font_preview > div {
+  width: 180px;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #fe0876;
+}
+
+.pipifire_font_preview_cap {
+  text-transform: uppercase;
+}
+
+.pipifire_font_preview_low {
+  margin-left: 50px;
+  text-transform: lowercase;
+}
+
+.pipifire_font_name {
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.pipifire_screenshots {
+  padding: 180px 0;
+  background-image: url("./images/page_bg_pipifire_screenshot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pipifire_screenshots_title {
+  font-weight: 900;
+  color: rgba(130, 129, 129, 0.4);
+  font-size: 68px;
+  margin-bottom: 90px;
+}
+
+.pipifire_screenshots_wrapper img:nth-child(1) {
+  margin-bottom: 17px;
+  max-width: 100%;
+}
+
+.pipifire_in_app_purchase {
+  padding: 180px 0;
+  background-image: url(./images/bg_inapppurchase.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pipifire_in_app_purchase_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.preview img {
+  max-width: 280px;
+}
+
+.content_title {
+  font-weight: 900;
+  color: rgba(130, 129, 129, 0.4);
+  font-size: 68px;
+  margin-bottom: 110px;
+}
+
+.content_text {
+  max-width: 580px;
+  font-size: 22px;
+  line-height: 42px;
+}
+
+.pipifire_how_to_use {
+  padding: 180px 0;
+  background-image: url("./images/bg_howtouse.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
