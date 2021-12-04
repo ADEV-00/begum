@@ -154,6 +154,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .welcome-text {
@@ -379,6 +380,13 @@ section {
 }
 
 @media (max-width: 1199.98px) {
+  nav {
+    padding: 0 30px;
+  }
+
+  .header {
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -392,6 +400,10 @@ section {
 
   .mockup_icon {
     margin-bottom: 1.2rem;
+  }
+
+  .right img {
+    margin-right: 0;
   }
 }
 
@@ -431,7 +443,19 @@ section {
   footer {
     padding: 0 2rem;
   }
+
+  .right img:nth-child(2) {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 575.98px) {
+  .header {
+    overflow: hidden;
+  }
+
+  .welcome-text {
+    font-size: 5vw;
+    line-height: 8vw;
+  }
 }
