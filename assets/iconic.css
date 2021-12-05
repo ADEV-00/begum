@@ -351,11 +351,11 @@ nav {
 
   .about_btn {
     margin-bottom: 2rem;
-    font-size: 45px;
   }
 
   .about_title {
     margin-bottom: 1rem;
+    font-size: 45px;
   }
 
   .home_screen_wrapper > div:nth-child(1) {
