@@ -404,6 +404,7 @@ section {
 
   .mockup_icon {
     margin-bottom: 1.2rem;
+    align-items: center;
   }
 
   .right img {
@@ -465,9 +466,20 @@ section {
   .welcome-text {
     font-size: 5vw;
     line-height: 8vw;
+    margin-bottom: 3rem;
   }
 
   .right .mindful_mockup {
-    max-width: 100% !important;
+    max-width: 85% !important;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .profile-image-wrapper > img:nth-child(1) {
+    max-width: 90%;
+  }
+
+  .profile-image-wrapper > img:nth-child(2) {
+    max-width: 100%;
   }
 }
