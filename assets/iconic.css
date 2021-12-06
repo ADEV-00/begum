@@ -8,6 +8,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  overflow: hidden;
 }
 
 .about_wrapper {
@@ -384,5 +385,10 @@ nav {
 
   .header {
     height: auto;
+  }
+
+  .typography_wrapper > div:nth-child(1) > span {
+    font-size: 6vw;
+    margin-left: 0;
   }
 }
