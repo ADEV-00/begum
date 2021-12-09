@@ -165,3 +165,38 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.pipifire_in_app_purchase_wrapper > .animated_preview {
+  background-image: url("./images/how_to_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: animationHowToUse;
+  animation-duration: 10s;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.pipifire_in_app_purchase_wrapper > .animated_preview > img {
+  opacity: 0;
+}
+
+@keyframes animationHowToUse {
+  0% {
+    background-image: url("./images/how_to_1.png");
+  }
+  20% {
+    background-image: url("./images/how_to_1.png");
+  }
+  40% {
+    background-image: url("./images/how_to_2.png");
+  }
+  60% {
+    background-image: url("./images/how_to_3.png");
+  }
+  80% {
+    background-image: url("./images/how_to_4.png");
+  }
+  100% {
+    background-image: url("./images/how_to_5.png");
+  }
+}
