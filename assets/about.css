@@ -148,7 +148,7 @@ footer {
 
   .img_wrapper .btn-contact {
     display: flex;
-    width: 300px;
+    max-width: 300px;
     bottom: -10px;
   }
 
