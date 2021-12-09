@@ -90,8 +90,13 @@ body > div {
   flex-wrap: wrap;
 }
 
+.mindful_about_wrapper > .right {
+  flex-wrap: wrap;
+}
+
 .mindful_about_wrapper > .right > img {
   max-width: 250px;
+  margin-bottom: 2rem;
 }
 
 .left {
@@ -160,6 +165,7 @@ body > div {
   display: flex;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .mindful_typography_preview > div:nth-child(1) {
@@ -240,6 +246,7 @@ body > div {
   backdrop-filter: blur(14px);
   border-radius: 26px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .mindful_themes_preview > img {
@@ -295,6 +302,7 @@ body > div {
 .mindful_colors_preview {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .mindful_color_wrapper {
@@ -382,6 +390,7 @@ body > div {
 
 .onboarding_img_wrapper > img {
   max-width: 184px;
+  margin-bottom: 2rem;
 }
 
 .mindful_purchase_img_wrapper {
@@ -474,5 +483,34 @@ body > div {
   }
 }
 
-@media (max-widtdh: 575.98px) {
+@media (max-width: 575.98px) {
+  .mindful_themes_preview > img:first-child {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  .mindful_typography_preview > div:nth-child(2) {
+    margin-left: 0;
+    font-size: 25px;
+  }
+  .mindful_typography_weights > div {
+    margin-right: 10px;
+  }
+  .mindful_colors_title {
+    font-size: 20vw;
+  }
+
+  .mindful_onboarding_wrapper {
+    width: 100%;
+  }
+  .onboarding_img_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mindful_purchase_wrapper {
+    width: 100%;
+  }
+  .mindful_purchase_img_wrapper {
+    width: 100%;
+  }
 }

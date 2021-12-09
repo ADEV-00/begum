@@ -200,3 +200,100 @@ nav {
     background-image: url("./images/how_to_5.png");
   }
 }
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: calc(90% - 20px);
+  }
+}
+@media (max-width: 991.98px) {
+  .content_text {
+    max-width: 500px;
+  }
+}
+@media (max-width: 767.98px) {
+  .pipifire_header_wrapper {
+    justify-content: center;
+  }
+  .pipifire_header_content {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .pipifire_header_mockup {
+    margin-bottom: 2rem;
+  }
+
+  .pipifire_colors {
+    padding: 120px 0;
+  }
+
+  .pipifire_colors_font_wrapper {
+    justify-content: center;
+  }
+
+  .pipifire_color_wrapper {
+    margin-bottom: 2rem;
+  }
+
+  .pipifire_in_app_purchase {
+    padding: 120px 0;
+  }
+  .pipifire_in_app_purchase_wrapper {
+    justify-content: center;
+  }
+
+  .pipifire_header_text {
+    max-width: inherit;
+  }
+
+  .pipifire_screenshots {
+    padding: 120px 0;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content_title {
+    margin-bottom: 80px;
+  }
+
+  .content_text {
+    margin-bottom: 2rem;
+    max-width: inherit;
+  }
+
+  .pipifire_how_to_use {
+    padding: 120px 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .pipifire_color_wrapper > div {
+    font-size: 60px;
+  }
+  .pipifire_font_name {
+    font-size: 10vw;
+  }
+
+  .pipifire_font_preview > div {
+    font-size: 22px;
+  }
+
+  .content_title {
+    font-size: 10vw;
+  }
+
+  .pipifire_screenshots_title {
+    font-size: 13vw;
+  }
+
+  .pipifire_screenshots {
+    padding: 90px 0;
+  }
+  .pipifire_font_preview_low {
+    margin-left: 5px;
+  }
+
+  .pipifire_color_wrapper > div {
+    font-size: 13vw;
+  }
+}
