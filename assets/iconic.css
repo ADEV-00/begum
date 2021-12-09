@@ -375,6 +375,10 @@ nav {
     padding: 50px 0;
   }
 
+  .home_screen_wrapper {
+    flex-direction: column;
+  }
+
   .detail_screen {
     padding: 50px 0;
   }
@@ -390,5 +394,13 @@ nav {
   .typography_wrapper > div:nth-child(1) > span {
     font-size: 6vw;
     margin-left: 0;
+  }
+
+  .typography_wrapper > div:nth-child(1) {
+    margin-bottom: 0;
+  }
+
+  .typography_preview {
+    justify-content: center;
   }
 }

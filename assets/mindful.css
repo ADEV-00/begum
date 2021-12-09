@@ -335,9 +335,10 @@ body > div {
 }
 
 .mindful_screen_wrapper img {
-  /*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 17px;
   max-width: 250px;
+  margin-bottom: 2rem;
 }
 
 .mindful_screen > .circle {
