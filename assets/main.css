@@ -470,7 +470,6 @@ section {
   }
 
   .right .mindful_mockup {
-    max-width: 85% !important;
     display: flex;
     margin: 0 auto;
   }
