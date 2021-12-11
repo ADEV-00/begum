@@ -92,6 +92,7 @@ body > div {
 
 .mindful_about_wrapper > .right {
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .mindful_about_wrapper > .right > img {
@@ -131,6 +132,7 @@ body > div {
   background: white;
   border-radius: 26px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  margin-right: 3rem;
 }
 
 .mindful_about_text > a {
@@ -438,6 +440,9 @@ body > div {
 }
 
 @media (max-width: 767.98px) {
+  .mindful_about_text {
+    margin-right: 0;
+  }
   .mindful_about {
     padding: 100px 0;
   }
