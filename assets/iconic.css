@@ -278,6 +278,47 @@ nav {
   justify-content: flex-end;
 }
 
+.slider {
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  width: calc(250px * 12);
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.slider-track:hover {
+  animation-play-state: paused;
+}
+
+.slide > img {
+  width: 100%;
+  transition: transfrom 1s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 6));
+  }
+}
+
 @media (max-width: 1199.98px) {
   .container {
     max-width: calc(90% - 20px);
