@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Begum</title>
     <link rel="stylesheet" href="./assets/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <section class="header">
@@ -47,7 +49,7 @@
       <img src="./assets/images/torus_group.png" alt="" class="torus_group" />
       <div class="container">
         <div class="iconic_wrapper">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <div class="mockup_icon">
               <img
                 src="./assets/images/logo_iconic.png"
@@ -83,7 +85,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <img src="./assets/images/torus.png" alt="Tours" class="tours" />
             <img
               src="./assets/images/mockup_iconic.png"
@@ -98,7 +100,7 @@
       <img src="./assets/images/butterfly.png" alt="" class="left_butterfly" />
       <div class="container">
         <div class="iconic_wrapper">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <div class="mockup_icon">
               <img
                 src="./assets/images/logo_mindful.png"
@@ -132,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <img
               src="./assets/images/butterfly.png"
               alt="Tours"
@@ -151,7 +153,7 @@
       <img src="./assets/images/vector.png" alt="" class="left_butterfly" />
       <div class="container">
         <div class="iconic_wrapper">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <div class="mockup_icon">
               <img
                 src="./assets/images/logo_pipifire.png"
@@ -185,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="right">
+          <div class="right" data-aos="fade-left">
             <img
               src="./assets/images/vector.png"
               alt="Tours"
@@ -221,5 +223,16 @@
         </div>
       </div>
     </footer>
+    <script>
+      AOS.init({
+        delay: 500,
+      });
+
+      AOS.init();
+
+      window.addEventListener("load", function () {
+        AOS.refresh();
+      });
+    </script>
   </body>
 </html>
