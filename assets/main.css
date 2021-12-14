@@ -235,8 +235,8 @@ nav {
   align-items: center;
 }
 
-.btn_more > span {
-  margin-right: 10px;
+.btn_more > svg {
+  margin-left: 10px;
 }
 
 .btn_more {
@@ -456,10 +456,6 @@ section {
   .right .mindful_mockup {
     max-width: 280px !important;
   }
-}
-
-a {
-  text-decoration: none;
 }
 
 @media (max-width: 575.98px) {
