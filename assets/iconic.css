@@ -286,10 +286,28 @@ nav {
   height: auto;
   margin-left: auto;
   position: relative;
-  width: 55%;
+  width: 100%;
   display: grid;
   place-items: center;
   overflow: hidden;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::before {
+  background: linear-gradient(
+    90deg,
+    #eae1ff 0%,
+    rgba(235, 226, 255, 0) 101.62%
+  );
+  content: "";
+  height: 100%;
+  width: 20%;
+  z-index: 2;
+  position: absolute;
 }
 
 .slider-track {
